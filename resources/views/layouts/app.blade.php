@@ -131,17 +131,16 @@ $(function(){
 var $grid = $('.isotope').isotope({
   itemSelector: '.item',
   layoutMode: 'fitRows',
-  getSortData: {
-    category: '[data-category]',
-  }
+  // getSortData: {
+  //   category: '[data-filter]',
+  // }
 });
 // external js: isotope.pkgd.js
 
 // bind filter button click
 $('#filters').on( 'click', 'a', function() {
   var filterValue = $( this ).attr('data-filter');
-  console.log(filterValue);
-  $container.isotope({ filter: filterValue });
+  $grid.isotope({ filter: filterValue });
 });
 
 });

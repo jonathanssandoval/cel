@@ -23,7 +23,7 @@ bmain2
 <div class="container-fluid">
   <div class="row isotope">
     @foreach ($cels as $cel)
-        <div class="col-xs-4 col-md-3 item {{ $cel->categories}} nopadding">
+        <div class="col-xs-4 col-md-3 item  {{ $cel->categories}} nopadding">
              <img class="object-fit_cover"src="{{ asset('uploads/'.$cel->photo) }}" data-toggle="modal" id="" data-target="#show_cel_<?php echo $cel->id; ?>">
            </div>
    @endforeach
