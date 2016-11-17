@@ -1,0 +1,275 @@
+
+
+.bmain2{
+	background-color:#2b3034;
+}
+.bmain{
+	background: url(img/backer.png);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: #fff;
+}
+
+.orange{
+	background: url(img/lines-01.png);
+	background-repeat:repeat;
+	background-color: #f05436;
+
+}
+
+.black{
+	background: url(img/lines-01.png);
+	background-repeat:repeat;
+	background-color: #2b3034;
+
+}
+
+.white{
+	background: url(img/wlines-01.png);
+	background-repeat:repeat;
+  	
+  	padding-bottom:40px;
+  	padding-top:20px;
+  	padding-left: 30px
+}
+p {
+	font-family: "futura-pt",sans-serif;
+	font-weight:400;
+}
+
+p .light{
+	font-family: "futura-pt",sans-serif;
+}
+
+nav{
+	font-family: "futura-pt",sans-serif;
+	font-weight:700;
+}
+h1{
+	font-family: "futura-pt",sans-serif;
+	font-weight:700;
+	font-size:3rem;
+}
+
+h2{
+	font-family: "futura-pt",sans-serif;
+	font-style:italic;
+	font-weight:700;
+	font-size:6rem;
+}
+
+h3{
+	font-family: "futura-pt",sans-serif;
+	font-weight:400;
+	font-size:2rem;
+}
+
+h4{
+	font-family: "futura-pt",sans-serif;
+	font-weight:400;
+	font-size:2rem;
+}
+
+h5{
+	font-family: "futura-pt",sans-serif;
+	font-weight:700;
+	font-size:6rem;
+}
+
+
+.smallerfont{
+	font-family: "futura-pt",sans-serif;
+	font-weight:300;
+	font-size:3rem;
+	color: #f05436;
+}
+
+.light{
+	font-family: "futura-pt",sans-serif;
+	font-weight:400;
+}
+
+.tbox{
+	padding-top:170px;
+}
+
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+.navbar-brand {
+	padding: 0px;
+}
+.prow{
+	margin-top:80px
+}
+.navbar{
+    color: white;
+    margin-bottom:0px;
+    background-color: #2b3034
+
+}
+.btn{
+	background-color:#f05436;
+}
+.btn-wide{
+	background-color:#2b3034;
+	width:50%;
+	max-width: 345px;
+	min-width: 194px;
+}
+.btn-lg {
+	font-family: "futura-pt",sans-serif;
+	color:white;
+	font-weight:700;
+    font-size: 20px;
+    padding: 12px 2em;
+    min-width: 112px;
+    min-height: 44px;
+ }
+ .btn-add {
+	font-family: "futura-pt",sans-serif;
+	color:white;
+	font-weight:400;
+    font-size: 2rem;
+    min-width: 100px;
+    min-height: 44px;
+ }
+
+ .btn-custom {
+	font-family: "futura-pt",sans-serif;
+	background-color:#535e63;
+	color:white;
+	font-weight:700;
+    font-size: 2rem;
+    min-width: 100px;
+    min-height: 44px;
+ }
+
+ .btn-custom2 {
+	font-family: "futura-pt",sans-serif;
+	background-color:#3c3935;
+	color:white;
+	font-weight:700;
+    font-size: 2rem;
+    min-width: 100px;
+    min-height: 44px;
+ }
+.btn-custom:hover{
+     background-color:#6a777c;
+}
+.btn-custom2:hover{
+     background-color:#68635d;
+}
+
+.dropdown{
+ background-color:#f05436;
+}
+.dropdown-menu{
+	background-color:orange;
+}
+
+.home h1 {
+	margin-top: 100px;
+}
+.register{
+	background-color:#f05436;
+}
+
+ .panel-body {
+  background-color: #fef3dc
+}
+
+.celwall{
+	margin-top:40px;
+}
+
+.space40{
+	padding-top: 20px
+}
+
+#custom {
+  color:white;
+}
+
+.nopadding {
+   padding: 0px;
+   margin: 0px;
+}
+
+.object-fit_cover { object-fit: cover }
+
+
+img[id] { 	height:200px;
+			width:400px;
+			 overflow: hidden;
+  z-index: 2;
+
+		}
+
+
+.item img {
+  max-width: 100%;
+  max-height: 100%;
+
+}
+
+.modal-content{
+	background-color:#fef3dc;
+}
+
+.footer{
+	padding-top:1px;
+	background-color: #2b3034;
+    font-family: "futura-pt",sans-serif;
+	font-weight:400;
+	font-size:2rem;
+	color:white;
+}
+/*.form-group {
+    margin-bottom: 0px;
+}*/
+.btn2 a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color:white;
+}
+
+.btn2:hover{
+	background-color:black;
+}
+
+.btn2{
+	text-decoration:none;
+	font-family: "futura-pt",sans-serif;
+	font-weight:700;
+	font-size:3rem;
+	background-color:#f05436;
+	border-radius:0;
+	border: none;
+}
+
+.btn3{
+	font-family: "futura-pt",sans-serif;
+	font-weight:700;
+	font-size:3rem;
+	background-color:#535e63;
+	border-radius:0;
+	border: none;
+}
+
+.modal-open .modal,.btn:focus{outline:none;}
+@media all and (max-width: 650px){
+	.btn-lg{
+			 min-width: 70px;
+    		 min-height: 30px;
+			 font-size: 14px;
+			 padding: 5px 0em;
+		}
+
+img[id] { 	height:70px;
+			width:150px}
+}
